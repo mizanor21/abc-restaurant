@@ -413,3 +413,94 @@
     box-shadow: 0px 4px 6px rgba(211, 181, 120, 0.32);
     border-radius: 4px;
 }
+
+
+/* popular coffee section  */
+
+.popular_coffee {
+    background-color: #F7F2E9;
+    padding-bottom: 50px;
+}
+
+.popular_coffee h1 {
+    padding-top: 150px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 120%;
+    /* identical to box height, or 65px */
+
+    text-align: center;
+}
+
+.popular_coffee .all_cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* padding: -100px 0px; */
+    margin: 0px 200px;
+}
+
+
+.popular_coffee .all_cart .cart_info .price {
+    text-align: center;
+    width: 50px;
+    padding: 10px 20px;
+    background: #AC8435;
+    border: 2px solid #403C34;
+    border-radius: 4px;
+}
+
+.popular_coffee .all_cart .coffee {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 200px;
+    bottom: -130px;
+}
+
+.popular_coffee .all_cart .cart_info {
+    background-image: url('/assets/images/coffee/bg_coffee.png');
+    background-color: #FFFFFF;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.popular_coffee .all_cart .cart_info:hover {
+    border: 2px solid #AC8435;
+}
+
+.popular_coffee .all_cart .cart_info .cart_infooo {
+    padding: 40px 32px;
+}
+
+.popular_coffee .all_cart .cart_info .cart_infooo img {
+    padding: 16px 0px;
+}
+
+.popular_coffee .all_cart .cart_info .cart_infooo h2 {
+    padding: 20px 0px;
+}
+
+.popular_coffee .all_cart .cart_info .cart_infooo p {
+    padding: 10px 0px;
+}
+
+.popular_coffee .all_cart .cart_info .cart_infooo .offer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.popular_coffee .all_cart .cart_info .cart_infooo .offer button {
+    text-align: center;
+    width: 100px;
+    padding: 10px 20px;
+    background: #AC8435;
+    border: 2px solid #403C34;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+}
