@@ -11,7 +11,7 @@
 
 <body>
     <!-- header area start! -->
-    <header>
+    <header id="navbar">
         <div class="header_top">
             <p>Sign up for our Loyalty Program today and receive 15% OFF your first order.</p>
             <ul class="contact_items">
@@ -22,8 +22,59 @@
             </ul>
         </div>
 
+        <!-- menu bar -->
+
+        <div class="menu_bar">
+            <div class="logo">
+                <img src="./assets/images/icons/logo.png" alt="logo not found!">
+                <h3>MR. CAFE</h3>
+            </div>
+            <div class="menu_items">
+                <ul class="navbar_items">
+                    <li>
+                        <a class="" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Drinks">Coffee & Drinks</a>
+                    </li>
+                    <li>
+                        <a href="#Food-menu">Food Menu</a>
+                    </li>
+                    <li>
+                        <a href="#Reservation">Reservation</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_info">
+                <ul>
+                    <li>$ 0.00 / 0</li>
+                    <li>Rafsan</li>
+                </ul>
+            </div>
+        </div>
     </header>
     <!-- header area end! -->
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 
 </body>
 

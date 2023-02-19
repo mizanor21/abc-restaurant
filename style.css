@@ -25,3 +25,47 @@
     list-style: none;
     margin-right: 20px;
 }
+
+/* navbar area start  */
+.menu_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px;
+}
+
+.menu_bar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu_bar .menu_items .navbar_items {
+    display: flex;
+}
+
+.menu_bar .menu_items .navbar_items li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.menu_bar .menu_items .navbar_items li a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.menu_bar .nav_info ul {
+    display: flex;
+
+}
+
+.menu_bar .nav_info ul li {
+    list-style: none;
+    margin-right: 36px;
+}
