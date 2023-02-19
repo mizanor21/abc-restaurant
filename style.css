@@ -27,11 +27,11 @@
 }
 
 /* navbar area start  */
-#navbar {
+/* #navbar {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 
 .menu_bar {
     display: flex;
@@ -78,7 +78,7 @@
 
 /* banner area start */
 .banner {
-    margin-top: 150px;
+    /* margin-top: 150px; */
     display: flex;
     background-color: #F7F2E9;
 }
@@ -349,4 +349,67 @@
     /* or 34px */
 
     letter-spacing: 0.04em;
+}
+
+/* About Us section  */
+.about_us {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F2E9;
+}
+
+.about_us .gallery img {
+    margin-right: 20px;
+}
+
+.about_content {
+    background-color: #F7F2E9;
+}
+
+.about_content .about {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+.about_content .about .content h1 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    padding-top: 40px;
+}
+
+.about_content .about .content h5 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.about_content .about .content p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.about_content .about .content button {
+    margin-top: 32px;
+    margin-right: 20px;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    background: #AC8435;
+    box-shadow: 0px 4px 6px rgba(211, 181, 120, 0.32);
+    border-radius: 4px;
 }
