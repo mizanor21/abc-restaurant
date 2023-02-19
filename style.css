@@ -1,0 +1,27 @@
+/* header area start */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;
+    background-color: #403C34;
+    color: #FFFFFF;
+    padding: 15px 0px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header_top .contact_items {
+    display: flex;
+}
+
+.header_top .contact_items li {
+    /* text-decoration: none; */
+    list-style: none;
+    margin-right: 20px;
+}
