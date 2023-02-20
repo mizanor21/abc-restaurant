@@ -419,7 +419,6 @@
 
 .popular_coffee {
     background-color: #F7F2E9;
-    padding-bottom: 150px;
 }
 
 .popular_coffee h1 {
@@ -532,4 +531,69 @@
     color: #FFFFFF;
     background-color: #AC8435;
     border: none;
+}
+
+/* catagories area start  */
+
+.catagories {
+    background-color: #F7F2E9;
+    /* padding-bottom: 150px; */
+}
+
+.catagories h1 {
+    padding: 50px 0px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 120%;
+    /* identical to box height, or 65px */
+    text-align: center;
+}
+
+.catagories h2 {
+    margin-left: 200px;
+}
+
+.catagories .all_cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0px 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.catagories .all_cart .cart {
+    border: 2px solid rebeccapurple;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.catagories .all_cart .cart .coffee {
+    position: relative;
+    top: 150px;
+    left: 160px;
+    width: 200px;
+    height: 280px;
+}
+
+.catagories .all_cart .cart .food {
+    position: relative;
+    top: 150px;
+    left: 160px;
+    width: 160px;
+    height: 200px;
+}
+
+.catagories .all_cart .cart .cart_info {
+    padding: 0px 210px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    background-image: url('./assets/images/coffee/bg_coffee.png');
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
